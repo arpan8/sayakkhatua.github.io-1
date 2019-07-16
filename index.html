@@ -51,7 +51,7 @@ I am an economist with a keen interest on public policy analysis, impact evaluat
     </div>
     <footer class="container">
       <section class="copy">
-        <p>&copy; 2017 Anand Thakker</p>
+        <p>&copy; 2019 Sayak Khatua</p>
         <nav>
           <ul>
             <li><a href="https://twitter.com/sayakkhatua">twitter</a></li>
@@ -59,63 +59,5 @@ I am an economist with a keen interest on public policy analysis, impact evaluat
           </ul>
         </nav>
       </section>
-      <section class="poweredby">
-        <p>Powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a></p>
-      </section>
-      <div class="about-background collapse"><a href="#"><br>Play with the geometry background!</a>
-        <p>
-          The moving background is a dynamic compass-and-ruler construction
-          for circumscribing an arbitrary triangle, generated from the
-          text below using<a href="/projects/euclid/"> Euclid JS.</a> You can mess around with the text and it'll change the figure.
-        </p>
-        <div class="message"></div>
-        <textarea class="code geometry-text">
-          [main-figure]
-          Let a = (300, 1500).
-          Let b = (1800, 1200). # this is the point following the mouse.
-          Let c = (-120, 1).
-          Let s be a segment with endpoints a and b.
-          Let t be a segment with endpoints b and c.
-          Let u be a segment from a to c.
-          
-          [guides]
-          Let k be a circle centered at a containing b.
-          Let l be a circle centered at b containing a.
-          Let m be the circle centered at b containing c.
-          Let n be the circle centered at c containing b.
-          d = the intersection of k and l
-          e = the intersection of k and l that is not d
-          f = the intersection of m and n
-          g = the intersection of m and n that is not f
-          
-          [perpendicular-bisectors]
-          Let v be the line determined by d and e
-          Let w be the line determined by f and g
-          
-          [result]
-          Let O be the intersection of v and w
-          Draw the circle centered at O containing a.
-          
-        </textarea>
-      </div>
-    </footer>
-    <script src="/js/main.js"></script>
-    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <script src="/js/geometry.js"></script>
-    <script src="/js/geometry-background.js"></script>
-    <script>
-      var _gauges = _gauges || [];
-      (function() {
-        var t   = document.createElement('script');
-        t.type  = 'text/javascript';
-        t.async = true;
-        t.id    = 'gauges-tracker';
-        t.setAttribute('data-site-id', '5800b9ebbb922a05c1005e66');
-        t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
-        t.src = 'https://d36ee2fcip1434.cloudfront.net/track.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(t, s);
-      })();
-    </script>
   </body>
 </html>
