@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<?php require "header.php"; ?>
+<?php require "/header.php"; ?>
 <div class="container">
  <h2>Book Chapters</h2>
             <header><span class="date">14 April, 2019</span>
@@ -76,6 +76,6 @@
             </div>
             
             
-<?php require "footer.php"; ?>
+<?php require "/footer.php"; ?>
 </body>
 </html>
