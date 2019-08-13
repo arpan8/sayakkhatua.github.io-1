@@ -17,8 +17,8 @@
     </div>
     
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="home.php">Home</a></li>
-      <li><a href="publication.php">Publication</a></li>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/publication.php">Publication</a></li>
       <li><a href="http://sayakkhatua.github.io/resume/Sayak_Khatua_CV.pdf">Resume</a></li>
     </ul>
   </div>
